@@ -57,7 +57,7 @@ header#cabecalho h1 {
 
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
-    color: #888888;
+    color: #93bf85;
     font-size: 15pt;
     padding: 0px;
     margin-top: 0px;
@@ -105,19 +105,19 @@ nav#menu ul{
 	text-transform: uppercase;
 	position: absolute;
 	top: -20px;
-	left: 500px;
+	left: 600px;
 }
 
 nav#menu li {
 	display: inline-block;
-	background-color: #dddddd;
+	background-color: #dbead5;
 	padding: 10px;
 	margin: 2px;
 	transition: background-color 1s;
 }
 
 nav#menu li:hover{
-background-color:#606060;
+background-color:#15400e;
 }
 
 nav#menu h1 {
@@ -147,7 +147,7 @@ section#corpo {
 article#noticia-principal h2{
     font-size: 13pt;
     color: #606060;
-    background-color: #dddddd;
+    background-color: #dbead5;
     padding: 5px 0px 5px 10px;
     margin: 10px 0px 10px 0px;
 }
@@ -175,48 +175,7 @@ header#cabecalho-artigo h3 {
     text-align: right;
 }
 
-/* Formatação da tabela */
-
-table#tabelaspec {
-    border: 1px solid #606060;
-    border-spacing: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-table#tabelaspec td{
-    border: 1px solid #606060;
-    padding: 10px;
-    text-align: center;
-    vertical-align: top;
-}
-
-table#tabelaspec td.ce{
-    color: #ffffff;
-    background-color: #606060;
-    vertical-align: top;
-    font-weight: bold;
-}
-
-table#tabelaspec td.cd{
-    background-color: #cecece;
-}
-
-table#tabelaspec caption{
-    color: #888888;
-    font-size: 13pt;
-    font-weight: bolder;
-}
-
-table#tabelaspec caption span {
-    display: block;
-    float: right;
-    color: #000000;
-    font-size: 8pt;
-    margin-top: 10px;
-
-}
-
+/* Colocando uma parte do texto lateral */
 aside#lateral{
     display: block;
     width: 380px;
@@ -235,7 +194,7 @@ aside#lateral h1 {
 }
 
 aside#lateral h2 {
-    background-color: #606060;
+    background-color: #15400e;
     font-size:13pt;
     color:#ffffff;
     padding: 5px;
