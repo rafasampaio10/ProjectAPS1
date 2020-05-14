@@ -36,7 +36,7 @@ a:hover {
 /* Cabeçalho */
 header#cabecalho img#icone{
     position: absolute;
-    left: 1100px;
+    left: 72%;
     top: 70px;
 }
 
