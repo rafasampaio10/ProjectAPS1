@@ -209,3 +209,62 @@ footer#rodape {
 footer#rodape p {
     text-align: center;
 }
+
+/*Fale conosco - Formulario*/
+
+.form {
+		background-color: #dbead5;
+		width: 780px;
+		margin-left: auto;
+		margin-right: auto;
+		-webkit-column-count: 2;
+		text-align: center;
+		border-radius: 5px;
+}
+.formh2 h2{
+	font-family: 'Titillium Web', sans-serif;
+	color: #000;
+    font-size: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.form p {
+	display: block;
+  	margin-top: 9px;
+ 	margin-bottom: 1px;
+  	margin-left: 0;
+  	margin-right: 0;
+}
+.form input {
+	border-radius: 5px;
+	background-color: #FFF;
+}
+
+.form textarea {
+	display: block;
+  	margin-top: 7px;
+ 	margin-bottom: 1px;
+  	margin-left: 50px;
+  	margin-right: 0;
+  	border-radius: 5px;
+}
+input[type=submit] {
+	background:#FFF;
+    color:#000;
+    border: 15px solid;
+    border-color: #fff;
+    border-radius: 5px;
+  	margin-right: 50%;
+}
+
+footer#rodapeform {
+    clear: both;
+    border-top: 1px solid #606060;
+    margin-top: 100px;
+}
+
+footer#rodapeform p {
+    text-align: center;
+}
+/*Fim formulario*/
